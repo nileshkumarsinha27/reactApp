@@ -1,0 +1,27 @@
+.articledetails{
+  display: inline-block;
+  position: relative;
+}
+.articledetails h2{
+  font-size: 15px;
+  margin: 0;
+  padding: 0 8px 8px;
+}
+.articledetails p{
+  font-size: 14px;
+  margin: 0;
+  padding: 0 8px 8px;
+}
+.articledetails span{
+  position: absolute;
+  font-size: 12px;
+  bottom: -5px;
+  right: 0;
+  cursor: pointer;
+  color: #003f72;
+  font-weight: 600;
+}
+.articledetails a{
+  padding: 0 2px;
+  color: #fe801b;
+}
