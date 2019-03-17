@@ -12,7 +12,7 @@
   margin: 0;
   padding: 0 8px 8px;
 }
-.articledetails span{
+.articledetails button{
   position: absolute;
   font-size: 12px;
   bottom: -5px;
@@ -20,6 +20,7 @@
   cursor: pointer;
   color: #003f72;
   font-weight: 600;
+  display: inline;
 }
 .articledetails a{
   padding: 0 2px;

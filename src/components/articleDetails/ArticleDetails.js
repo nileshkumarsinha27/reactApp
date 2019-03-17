@@ -15,7 +15,9 @@ class ArticleDetails extends Component {
         <h2>{title}</h2>
         <p>{byline}</p>
         {!this.state.showMore && (
-          <span onClick={this.changeState}>Show More</span>
+          <button onClick={this.changeState} className="details-button">
+            Show More
+          </button>
         )}
         {this.state.showMore && (
           <div>
@@ -27,7 +29,7 @@ class ArticleDetails extends Component {
               </a>
             </p>
             <p>Section: {section}</p>
-            <span onClick={this.changeState}>Show Less</span>
+            <button onClick={this.changeState}>Show Less</button>
           </div>
         )}
       </div>
